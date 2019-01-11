@@ -1,13 +1,11 @@
 ---------------------------------------------------------------------
 -- Microsoft SQL Server T-SQL Fundamentals
--- Chapter 01 - Background to T-SQL Querying and Programming
--- © Itzik Ben-Gan 
+-- Background to T-SQL Querying and Programming
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
 -- Creating Tables
 ---------------------------------------------------------------------
-
 -- Create table Employees
 USE TSQLV4;
 

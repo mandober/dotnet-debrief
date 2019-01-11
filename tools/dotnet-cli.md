@@ -1,7 +1,7 @@
 # .net installation
 
 
-Install .net sdk
+Install .net SDK
 
 Create app: `dotnet new console -o qc`
   - `dotnet` command creates a new app of type *console*
