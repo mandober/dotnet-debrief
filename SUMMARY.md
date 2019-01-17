@@ -10,7 +10,6 @@
   * [Operators](syntax/operators.md)
   * [Loops](syntax/loops.md)
   * [Conditionals](syntax/conditionals.md)
-
 * Variables
   - Variable type
   - Variable scope
@@ -23,7 +22,6 @@
   - Readonly
   - In Parameters
   - Constant Guideline
-
 * Simple types
   - Integral types
   - Floating-point types

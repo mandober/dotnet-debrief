@@ -7,47 +7,71 @@
 
 Keywords are predefined, reserved identifiers that have special meanings to the compiler. They cannot be used as identifiers in your program unless they include `@` as a prefix, e.g. `@if` is a valid identifier. The `@` symbol doesn't form a part of the identifier itself, e.g. `@id` is the same identifier as `id`.
 
-The contextual keywords have special meaning only in a limited program context and can be used as identifiers outside that context. Some contextual keywords, such as `partial` and `where`, have special meanings in two or more contexts. Generally, new keywords are added as contextual keywords, for backwards compatibility.
+The *contextual keywords* have special meaning only in a limited program context and can be used as identifiers outside that context. Some contextual keywords, such as `partial` and `where`, have special meanings in two or more contexts. Generally, new keywords are added as contextual keywords, for backwards compatibility.
 
 
 
-## Reserved keywords
+## Reserved keywords by purpose
 
 ```
 private
 protected
 public
 internal
+
 readonly
 abstract
-as
-is
+
 bool
 char
 byte
 sbyte
-double
-long
-decimal
-float
-true
+short
+ushort
 int
+uint
+long
+ulong
+double
+float
+decimal
 string
+null
+object
+
+true
 false
-break
-continue
-try
+
+checked
+unchecked
+
+do
+while
+if
+else
+for
+in
+foreach
 switch
 case
-if
-for
-foreach
+break
+continue
 goto
-do
-else
-throw
+
+try
 catch
 finally
+
+return
+throw
+
+as
+is
+
+out
+ref
+params
+
 namespace
 class
 struct
@@ -55,32 +79,27 @@ enum
 delegate
 event
 interface
+
 default
-const
 extern
+const
+static
 fixed
+lock
+
+override
+operator
 explicit
 implicit
+
+sealed
 base
 this
-in
-lock
 new
-null
-object
-operator
-out
-override
-params
-ref
-return
-short
-sizeof
+
 stackalloc
-sealed
-static
-checked
-unchecked
+
+sizeof
 ```
 
 
@@ -88,34 +107,19 @@ unchecked
 ## Contextual keywords
 
 ```
-ascending
-descending
-async
-await
-var
+async, await, yield
 nameof
+var
 dynamic
-by
-equals
-from
-get
 global
-add
-select
-group
-orderby
-when
-where
-join
-in
-into
 let
 on
 partial
-remove
-set
 value
-yield
+ascending, descending
+select, equals, group, by, orderby, from, add
+when, where, join, into, remove
+get, set
 ```
 
 

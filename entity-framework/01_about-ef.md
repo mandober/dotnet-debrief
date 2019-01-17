@@ -7,6 +7,15 @@
 - EF is built on top of ADO.NET, the low-level data access library
 - the latest stable version for `.NET Framework 4.7` is EF 6
 
+- EF Core is a completely new implementation of the ADO.NET EF
+- EF Core versions:
+  - version 1.0 was released on June 27, 2016, along with:
+    - .NET Core version 1.0 
+    - ASP.NET Core version 1.0
+  - version 2.0 was released on August 14, 2017.
+  - version 2.1 is in progress.
+
+
 The name comes from a database concept called the entity-relationship model, where an entity is the abstract concept of a data object, which is related to other entities.
 
 EF maps the C# objects to the entities in a RDB. This is called *object-relational mapping* and it maps classes, objects and properties to the tables, rows and columns.
@@ -22,7 +31,6 @@ EF maps the C# objects to the entities in a RDB. This is called *object-relation
 https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
 
 
-
 ---
 
 EF Core 2.1 reference
@@ -30,3 +38,6 @@ https://docs.microsoft.com/en-us/dotnet/api/?view=efcore-2.1
 
 SQL Server Express
 https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
+
+Entity Framework get started
+https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/step/2.html

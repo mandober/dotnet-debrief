@@ -1,4 +1,4 @@
-# Iterator
+# Design Patterns: Iterator
 
 The iterator pattern is an example of a behavioral pattern, a design pattern that simplifies communication between objects. It allows you to access all the
 elements in a sequence of items without caring about what kind of sequence it is: an array, a list, a linked list, or none of the above.

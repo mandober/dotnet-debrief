@@ -139,3 +139,31 @@
     * Utilities
       - XAMLPad (XAML authoring)
       - LinqPad
+
+
+* Common Language Infrastructure (CLI)
+Architecture	
+Application domain Code Access Security Common Intermediate Language (CIL) CIL instructions Common Type System (CTS) Platform Invocation Services (P/Invoke) Virtual Execution System (VES)
+Components	
+Assembly Delegate Global Assembly Cache (GAC) Manifest Metadata
+Standard
+Libraries	
+Kernel Profile	
+Base Class Library (BCL) Runtime Infrastructure Library
+Compact Profile	
+Network Library Reflection Library XML Library
+Extended Array Library Extended Numerics Library Parallel Library Vararg Library
+Implementations	
+Microsoft	
+.NET Framework .NET Compact Framework .NET Micro Framework Shared Source Common Language Infrastructure
+Other	
+.NET Core Mono Xamarin.iOS Xamarin.Android Xamarin.Mac Portable.NET
+Languages	
+Microsoft	
+C# Visual Basic .NET C++/CLI Managed F# Q# J# JScript .NET PowerShell
+Other	
+Axum A# Boo Cobra IronScheme IronLisp IronPython IronRuby Nemerle Oxygene Phalanger P# Scala
+Comparison	
+C# and Java C# and Visual Basic .NET Java and .NET platforms Visual Basic and Visual Basic .NET
+Organizations	
+.NET Foundation DotGNU Microsoft Xamarin
